@@ -1,0 +1,10 @@
+.cakePanel{
+  display:grid;
+  gap:30px;
+  padding: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px 0;
+}
+body{
+  background-color: #ECF2FF;
+}

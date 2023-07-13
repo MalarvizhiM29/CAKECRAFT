@@ -1,0 +1,37 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+.panelLeft {
+    display: flex;
+    width: 30%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+    float: left;
+  }
+  .panelRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25%;
+    float: right;
+    height: 80px;
+  }
+  .panelRight > a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    color: black;
+    cursor: pointer;
+  }
+  .panelRight > a:hover{
+    font-weight: bold;
+    border-bottom: 2px solid white;
+  }
+  .panel {
+    height: 80px;
+    background-color: #E5D1FA;
+  }
+  #caketitle{
+    font-family: 'Bungee Shade', cursive;
+  }
